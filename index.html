@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src = "https://cdn.plot.ly/plotly-latest.min.js"
+></script>   
+    <script src ="ajax.js"></script>
+    <script src ="js.js"></script>
+  </head>
+  <body onload= "getData();">
+    <h1>Fully Vaccinated By location</h1>
+      <div id= "barchart"></div>
+    <h1>vaccine manufacturer market share</h1>
+      <div id= "piechart"></div>
+      <br>
+      Location: <input type="text" id="locText">
+      </input>
+      <br>
+      <button onclick="GetLocData();">plot</button>
+      <div id= "linechart"></div>
+  </body>
+</html>
